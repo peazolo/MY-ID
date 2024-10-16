@@ -1,0 +1,38 @@
+name: my_flutter_app  # Replace with your app's name
+description: A new Flutter project.
+
+# Version of your app follows the format: major.minor.patch+buildnumber
+version: 1.0.0+1
+
+# Environment setup
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Essential package for iOS-style icons (you can remove if you don't need it)
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Flutter section specific to your project
+flutter:
+
+  # Use Material Design in your app (required for Material components)
+  uses-material-design: true
+
+  # Asset declarations (uncomment and add assets if needed)
+  assets:
+    - assets/avat.png
+
+  # Fonts declarations (if you want to include custom fonts)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
